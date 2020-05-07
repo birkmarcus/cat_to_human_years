@@ -3,11 +3,11 @@ def human_years(cat_years):
     grown_multi = 4
     first_years = 4
 
-    if cat_years >= first_years:
+    if cat_years >= first_years:  
         youth = first_years * youth_multi
         grown = (cat_years - first_years) * grown_multi
         return youth + grown
-    return youth * cat_years
+    return youth_multi * cat_years
 
 rerun = True
 while rerun == True:
